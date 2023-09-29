@@ -1,39 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Exame de Suficiência</title>
-</head>
+  </head>
 
-<body>
+  <body onload="main">
     <header class="post-header">
-        <button id="menu">
-            <img src="./assets/bars-solid.svg" alt="">
-        </button>
-        <h1>Postagens</h1>
-        <div class="social-medias">
-            <img class="social-media-icon" src="./assets/facebook.svg" alt="">
-            <img class="social-media-icon" src="./assets/twitter.svg" alt="">
-            <img class="social-media-icon" src="./assets/instagram.svg" alt="">
-            <img class="social-media-icon" src="./assets/github.svg" alt="">
-            <img class="social-media-icon" src="./assets/linkedin-in.svg" alt="">
-        </div>
+      <button id="menu">
+        <img src="./assets/bars-solid.svg" alt="" width="10px" height="10px" /> Menu
+      </button>
+      <h1>Postagens</h1>
+      <div class="social-medias">
+        <img class="social-media-icon" src="./assets/facebook.svg" alt="" />
+        <img class="social-media-icon" src="./assets/twitter.svg" alt="" />
+        <img class="social-media-icon" src="./assets/instagram.svg" alt="" />
+        <img class="social-media-icon" src="./assets/github.svg" alt="" />
+        <img class="social-media-icon" src="./assets/linkedin-in.svg" alt="" />
+      </div>
     </header>
     <main>
-        <section class="post-list">
-            <div class="post">
-                <h4 class="post-title">Cool post</h4>
-                <p class="post-date">28/09/2023</p>
-                <p class="post-information">Very cool information</p>
-            </div>
-        </section>
+      <section class="post-list">
+        <div class="post">
+          <h4 class="post-title">Cool post</h4>
+          <p class="post-date">28/09/2023</p>
+          <p class="post-information">Very cool information</p>
+        </div>
+      </section>
     </main>
-</body>
 
+    <div id="menu-modal" class="modal">
+      <div class="menu-container">
+        <span class="close">&times;</span>
+        <p>Modal content...</p>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
 </html>
