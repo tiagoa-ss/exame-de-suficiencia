@@ -70,10 +70,22 @@
 
 .post-information {}
 
+@media (max-width: 350px){
+    #menu {
+        position: relative;
+        margin: 1rem 0;
+    }
 
-
-
-
+    .post-list {
+        margin: 0 0.5rem;
+        width: auto;
+    }
+    
+    .post {
+        padding: 1rem 0;
+        align-items: flex-start;
+    }
+}
 
 .modal {
     display: none;

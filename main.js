@@ -1,8 +1,6 @@
 window.addEventListener("load", () => {
   const modal = document.getElementById("menu-modal");
 
-  console.log(modal);
-
   const btn = document.getElementById("menu");
 
   const span = document.getElementsByClassName("close")[0];
